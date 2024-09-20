@@ -1,7 +1,10 @@
 title: Pipeline generator
 description: A tool able to generate the YAML resource of a job
 theme: just-the-docs
-url: https://just-the-docs.github.io
+url: https://ch007m.github.com/pipeline-dsl-doc
+
+aux_links: # remove if you don't want this link to appear on your pages
+  Template Repository: https://github.com/ch007m/pipeline-dsl-doc
 
 permalink: pretty
 
@@ -11,9 +14,6 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 plugins:
   - jekyll-seo-tag
